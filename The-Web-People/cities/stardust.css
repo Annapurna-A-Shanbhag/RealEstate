@@ -1,0 +1,114 @@
+.descriptionDiv{
+    color: rgb(138, 138, 151);
+    font-family: mn-medium-normal, sans-serif;
+    font-size: 15px;font-weight: 500;
+    line-height: 1.47;
+}
+.featuresDiv{
+    font-size: 15px;
+    line-height: 1.7;
+}
+.alignTextCenter{
+    text-align:center;
+}
+#borderStyling{
+    border:1px solid gray; 
+    border-radius: 1%;
+}
+
+.includeImage
+    {
+        margin-top: 20px;
+    }
+    .includePara
+    {
+        text-align: center;
+    }
+    html body .container-table
+    {
+        height:100%;}
+.container-table{
+    display:table;
+}
+.vertical-center-row
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+@media screen and (min-width:1200px)
+{
+    .includeMainDiv
+    {  margin-left:120px;
+        text-align:center;
+    }
+    .includeSubDiv
+    {
+        width:230px;
+        height:150px;
+        background-color: white;
+        margin:10px;
+        text-align: center;
+        display:inline-block;
+        border-radius:1%;
+    }
+   
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+    .includeMainDiv
+    {
+        margin-left:60px;
+        text-align:center;
+
+    }
+    .includeSubDiv
+    {
+        width:180px;
+        height:150px;
+        background-color: white;
+        margin:8px;
+        text-align: center;
+        display:inline-block;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:992px)
+{
+    .includeMainDiv
+    {
+        margin-left:30px;
+        text-align:center;
+
+    }
+    .includeSubDiv
+    {
+        width:170px;
+        height:150px;
+        background-color: white;
+        margin:5px;
+        text-align: center;
+        display:inline-block;
+    }
+   
+}
+@media screen and (max-width:768px)
+{
+    .includeMainDiv
+    {
+        margin-left:10px;
+        text-align:center;
+
+    }
+    .includeSubDiv
+    {
+        width:170px;
+        height:150px;
+        background-color: white;
+        margin:3px;
+        text-align: center;
+        display:inline-block;
+    }
+    
+}

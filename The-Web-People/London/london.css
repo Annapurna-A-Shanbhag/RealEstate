@@ -1,0 +1,21 @@
+#link{
+    padding-top:50px;
+    color:white;
+    cursor: pointer;
+}
+.descriptionDiv{
+    color: rgb(138, 138, 151);
+    font-family: mn-medium-normal, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.47;
+}
+.procedureDiv{
+    font-size: 17px;
+    line-height: 1.43;
+}
+.roomDescriptionDiv{
+    border:1px solid black;
+    border-radius:1%; 
+    margin-bottom:10px;
+}
